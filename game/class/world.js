@@ -46,7 +46,7 @@ class World {
             if (itemData.isFood) {
                 newItem = new Food(itemData.name, itemData.description);
             } else {
-                newItem = new Item(itemData.name, itemData.description);                
+                newItem = new Item(itemData.name, itemData.description);
             }
 
             newItem.id = i + 1;
